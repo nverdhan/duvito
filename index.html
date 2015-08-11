@@ -4,10 +4,15 @@
 <body>
 	<input type="file" id="files" name="file" />
 	<button onclick="abortRead();">Cancel read</button>
+	<button onclick="renderAtoms();">Render Atoms</button>
 	<div id="progress_bar"><div class="percent">0%</div></div>
 	<div id="contents"></div>
 
 	<script type="text/javascript" src="js/fileparse.js"></script>
 	<script type="text/javascript" src="js/fileread.js"></script>
+	<script src="js/three.min.js"></script>
+	<script type="text/javascript" src="js/stats.min.js"></script>
+	<script type="text/javascript" src="js/OrbitControls.js"></script>
+	<script type="text/javascript" src="js/threeexample.js"></script>
 </body>
 </html>
